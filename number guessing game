@@ -1,0 +1,16 @@
+number=input("Guess any number")
+while number !=55:
+    if 1<float (number)<55:
+        print("guess higher")
+        number=input("guess another number")
+    elif 101>float(number)>55:
+        print("guess lower")
+        number=input("guess another number")
+    elif 101>float(number)<=0 or float(number)>=100:
+        print("invalid number ")
+        number=input("guess another number")
+    if 101>float(number)==55:
+        print("CONGRATS...Won the game")
+        break
+    
+        
