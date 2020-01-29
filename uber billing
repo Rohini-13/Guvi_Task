@@ -1,0 +1,28 @@
+km=int(input("enter the destination in number"))
+vehicle=str(input(" select mode of transport auto or cab"))
+def Bill(vehicle):
+  if(vehicle=="auto"):
+    fare=3
+    if km <=10 :
+      cost=km*fare
+      return cost
+    elif km >10 :
+        cost= km*fare
+        return cost
+  elif(vehicle=="cab"):
+        fare=5
+        if km <=10 :
+            cost=km*fare
+            return cost
+        elif km >10 :
+            cost= km*fare
+            return cost
+print("TOTAL FARE")
+print("SELECT MODE OF TRANSPORT",vehicle)
+print("COST",Bill(vehicle))
+    
+
+    
+  
+    
+    
